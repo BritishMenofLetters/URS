@@ -19,7 +19,7 @@ TIM2_COMP:	//svake 1ms pomaknuti brojac R0, R1, R2, R3, R4, R5, R6 .... R6-R5-R4
 	call DEKREMENT_ZNAMENKE
 	mov r0, r16	
 
-	//ako je R0 isa sa 9 na 0, provjeri jel triba smanjiti R1 ili resetirati program ako su daljni registri na nuli
+	//ako je R0 isa sa 0 na 9, provjeri jel triba smanjiti R1 ili resetirati program ako su daljni registri na nuli
 	cpi r16, 0x84
 //!	BRNE KRAJ_DEKREMENTA - nije moglo doseci labelu pa se koristi jmp
 	in r17, SREG
@@ -52,7 +52,7 @@ SMANJI_R1:
 	call DEKREMENT_ZNAMENKE
 	mov r1, r16	
 
-	//ako je R1 isa sa 9 na 0, provjeri jel triba smanjiti R2 ili skociti na kraj ako su daljni registri na nuli
+	//ako je R1 isa sa 0 na 9, provjeri jel triba smanjiti R2 ili skociti na kraj ako su daljni registri na nuli
 	cpi r16, 0x84
 //!	BRNE KRAJ_DEKREMENTA - nije moglo doseci labelu pa se koristi jmp
 	in r17, SREG
@@ -82,7 +82,7 @@ SMANJI_R2:
 	mov r2, r16	
 
 
-	//ako je R2 isa sa 9 na 0, provjeri jel triba smanjiti R3 ili skociti na kraj ako su daljni registri na nuli
+	//ako je R2 isa sa 0 na 9, provjeri jel triba smanjiti R3 ili skociti na kraj ako su daljni registri na nuli
 	cpi r16, 0x84
 	BRNE KRAJ_DEKREMENTA
 	
@@ -105,12 +105,12 @@ SMANJI_R3:
 	mov r3, r16	
 
 
-	//ako je R3 isa sa 9 na 0, provjeri jel triba prominiti zarez ili smanjiti R4
+	//ako je R3 isa sa 0 na 9, provjeri jel triba prominiti zarez ili smanjiti R4
 	cpi r16, 0x84
 	BRNE KRAJ_DEKREMENTA
 	
-	sbrs r7, 3	
-	jmp SMANJI_R5
+	sbrs r7, 4	
+	jmp SMANJI_R4
 
 	//Pomakni zarez i postav i taj registar u 0
 	lsl r7
