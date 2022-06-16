@@ -41,8 +41,8 @@
   <iLoop><FILE>C:\Users\student\Downloads\URS-main\URS-main\delay_loop.asm</FILE><LINE>6</LINE></iLoop>
   <INKREMENT_ZNAMENKE><FILE>C:\Users\student\Downloads\URS-main\URS-main\inkrement_dekadske_znamenke.asm</FILE><LINE>1</LINE></INKREMENT_ZNAMENKE>
   <DEKREMENT_ZNAMENKE><FILE>C:\Users\student\Downloads\URS-main\URS-main\inkrement_dekadske_znamenke.asm</FILE><LINE>16</LINE></DEKREMENT_ZNAMENKE>
-  <zaustavi_timer><FILE>C:\Users\student\Downloads\URS-main\URS-main\vanjski_interrupt.asm</FILE><LINE>15</LINE></zaustavi_timer>
-  <KRAJ_INKREMENTA><FILE>C:\Users\student\Downloads\URS-main\URS-main\1ms_interrupt.asm</FILE><LINE>88</LINE></KRAJ_INKREMENTA>
+  <zaustavi_timer><FILE>C:\Users\student\Downloads\URS-main\URS-main\vanjski_interrupt.asm</FILE><LINE>16</LINE></zaustavi_timer>
+  <KRAJ_INKREMENTA><FILE>C:\Users\student\Downloads\URS-main\URS-main\1ms_interrupt.asm</FILE><LINE>89</LINE></KRAJ_INKREMENTA>
   <KRAJ_DEKREMENTA><FILE>C:\Users\student\Downloads\URS-main\URS-main\1ms_interrupt2.asm</FILE><LINE>172</LINE></KRAJ_DEKREMENTA>
   <SMANJI_R1><FILE>C:\Users\student\Downloads\URS-main\URS-main\1ms_interrupt2.asm</FILE><LINE>50</LINE></SMANJI_R1>
   <SMANJI_R2><FILE>C:\Users\student\Downloads\URS-main\URS-main\1ms_interrupt2.asm</FILE><LINE>79</LINE></SMANJI_R2>

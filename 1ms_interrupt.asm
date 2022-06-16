@@ -81,13 +81,14 @@ TIM0_COMP:	//svake 1ms pomaknuti brojac R0, R1, R2, R3, R4, R5, R6 .... R6-R5-R4
 
 	//vrati zarez ako se dogodio prebacaj R6	
 	cpi r16, 0x03
+	BRNE KRAJ_INKREMENTA
 
 	//mozda bolje da ode na reset?
-	call 0x0000
+	jmp 0x0000
 
 KRAJ_INKREMENTA:
 
 	pop r16
 	out SREG, r16
 	pop r16
-	reti
+reti
