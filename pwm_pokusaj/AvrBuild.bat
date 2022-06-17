@@ -1,0 +1,2 @@
+@ECHO OFF
+"C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\avrasm2.exe" -S "C:\Users\student\Documents\AVR studio\pwm_pokusaj\labels.tmp" -fI -W+ie -o "C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.hex" -d "C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.obj" -e "C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.eep" -m "C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.map" "C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.asm"

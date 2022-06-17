@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.30</VERSION>
+ <DEVICE>ATmega16</DEVICE>
+ <WORKING_DIR>C:\Users\student\Documents\AVR studio\pwm_pokusaj</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m16def.inc</FILE>
+  <FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_vjezba.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.asm</FILE><LINE>16</LINE></reset>
+  <TIM2_COMP><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_vjezba.asm</FILE><LINE>1</LINE></TIM2_COMP>
+  <main><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.asm</FILE><LINE>67</LINE></main>
+  <delay10ms><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.asm</FILE><LINE>74</LINE></delay10ms>
+  <iLoop><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_pokusaj.asm</FILE><LINE>80</LINE></iLoop>
+  <KRAJ_PROGRAMA><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_vjezba.asm</FILE><LINE>54</LINE></KRAJ_PROGRAMA>
+  <SMANJI_TEMP><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_vjezba.asm</FILE><LINE>41</LINE></SMANJI_TEMP>
+  <KRAJ_PWM><FILE>C:\Users\student\Documents\AVR studio\pwm_pokusaj\pwm_vjezba.asm</FILE><LINE>47</LINE></KRAJ_PWM>
+ </LABELS>
+</ASSEMBLER_INFO>
