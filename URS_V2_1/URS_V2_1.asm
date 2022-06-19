@@ -36,7 +36,7 @@
 
 .include"delay_loop.asm"
 .include"inkrement_dekadske_znamenke.asm"
-.
+
 .include"vanjski_interrupt.asm"
 .include"timer0_1ms.asm"
 
