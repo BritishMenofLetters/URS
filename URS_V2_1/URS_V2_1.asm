@@ -26,7 +26,7 @@
 
 
 .org INT0addr	jmp 	EXT_INT0 		; External Interrupt Handler
-.org OC2addr	jmp		TIM2_COMP		; Timer2 Compare Handler
+.org OC2addr	jmp	TIM2_COMP		; Timer2 Compare Handler
 .org OC0addr	jmp 	TIM0_COMP 		; Timer0 Compare Handler
 
 
